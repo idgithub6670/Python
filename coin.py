@@ -38,7 +38,6 @@ def coninchangev2() :
             totalprice -= i
             change.append(i)
             
-
     for i in change :
         if i == 1000 :
             tul += 1
@@ -59,7 +58,7 @@ def coninchangev2() :
         elif i == 1 :
             one += 1
     
-    print("Type:1000 Amount%d\n Type:500:%d\n Type:100:%d\n Type:50:%d\n Type:20:%d\n Type:10:%d\n Type:5:%d\n Type:2:%d\n Type:1:%d"%(tul,fivehun,hun,fif,twen,ten,five,two,one))
+    print("Type:1000 Amount%d\nType:500:%d\nType:100:%d\nType:50:%d\nType:20:%d\nType:10:%d\nType:5:%d\nType:2:%d\nType:1:%d"%(tul,fivehun,hun,fif,twen,ten,five,two,one))
 coninchange()
 
 coninchangev2()
