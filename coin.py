@@ -1,9 +1,9 @@
 # วิธีทอนเงิน โดยใช้ แบงค์ แหละ เหรียญให้น้อยที่สุด
 # 
 
-def coninchange() :
+def coinchange() :
     totalprice = 10533
-    changelist = [1000,500,100,50,20,10,5,2,1]
+    changelist = [1000,500,100]
     change = []
 
     if totalprice == 0 :
@@ -16,7 +16,7 @@ def coninchange() :
             
     print(change)
 
-def coninchangev2() :
+def coinchangev2() :
     totalprice = 10533
     changelist = [1000,500,100,50,20,10,5,2,1]
     change = []
@@ -59,6 +59,6 @@ def coninchangev2() :
             one += 1
     
     print("Type:1000 Amount%d\nType:500:%d\nType:100:%d\nType:50:%d\nType:20:%d\nType:10:%d\nType:5:%d\nType:2:%d\nType:1:%d"%(tul,fivehun,hun,fif,twen,ten,five,two,one))
-coninchange()
+coinchange()
 
-coninchangev2()
+coinchangev2()
